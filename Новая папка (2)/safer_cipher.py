@@ -3,7 +3,7 @@
 
 
 
-import base64
+
 from typing import List
 
 BLOCK_SIZE = 8  # 64 бита
