@@ -49,10 +49,7 @@ def _derive_key(key_str: str) -> bytes:
         kb = kb[:16]
     return kb
 
-def _rotate_byte_left6(b: int) -> int:
-    """Циклический сдвиг байта влево на 6 бит (как в SAFER K-128 для подключей)."""
-    b &= 0xFF
-    return ((b << 6) & 0xFF) | (b >> 2)
+
 
 def _generate_round_keys(master: bytes, rounds: int = ROUNDS) -> List[bytes]:
     """
