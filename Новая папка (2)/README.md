@@ -5,7 +5,15 @@
 по мотивам SAFER K-128 и графический интерфейс на `tkinter` для шифрования
 и расшифрования текстовых данных.
 
+## Структура проекта
 
+- `main.py` — GUI-приложение на `tkinter`.
+- `safer_cipher.py` — модуль шифрования/дешифрования (учебный SAFER K-128).
+- `datasets/` — три подготовленных Excel-датасета для тестирования:
+  - `dataset_users.xlsx`
+  - `dataset_cmdb.xlsx`
+  - `dataset_itsm_tickets.xlsx`
+- `requirements.txt` — зависимости проекта.
 
 ## Запуск
 
