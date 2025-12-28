@@ -10,7 +10,8 @@
 - режим CBC с PKCS#7-паддингом поверх блоков;
 - результат кодируется в Base64 для удобства отображения в GUI.
 """
-from __future__ import annotations
+
+
 
 import base64
 from typing import List
