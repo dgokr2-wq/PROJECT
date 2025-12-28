@@ -1,7 +1,8 @@
 import base64
 from typing import List
 
-
+BLOCK_SIZE = 8  # 64 бита
+ROUNDS = 10     # рекомендуемое число раундов для варианта с 128-битным ключом
 
 # --- S-box таблицы SAFER-подобные: exp/log в поле GF(257) ---
 
