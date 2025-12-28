@@ -15,19 +15,7 @@
   - `dataset_itsm_tickets.xlsx`
 - `requirements.txt` — зависимости проекта.
 
-## Запуск
 
-1. Установить зависимости:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. Запустить GUI:
-
-   ```bash
-   python main.py
-   ```
 
 ## Использование
 
