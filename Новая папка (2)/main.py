@@ -8,7 +8,7 @@ GUI-приложение на tkinter для демонстрации работ
 """
 
 import os  # Работа с путями к файлам и папкам
-import tkinter as tk  # Базовый модуль для создания GUI
+import tkinter as tk  
 from tkinter import ttk, messagebox  # Виджеты ttk и стандартные диалоговые окна
 import pandas as pd  # Чтение и обработка Excel-датасетов
 
